@@ -22,6 +22,13 @@ The paper, the online appendix and the data are available at the following webpa
 
 - **Data**: https://www.openicpsr.org/openicpsr/project/117970/version/V1/view
 
+
+The problem set is published at the following:
+
+- **GitHub**: https://github.com/BenjaminMarkert/RTutorLongTermEffectsCommunism
+
+- **shinyapps.io**: https://benjaminmarkert.shinyapps.io/RTutorLongTermEffectsCommunism/
+
 With the end of World War II in 1945, the political situation in Eastern Europe was mainly set by the presence and policies of the Soviet Union. This lead to the implementation and preservation of a communist political system in each of the Eastern European states. The systems were mainly determined by the Soviets with the objective of economic and social transformation aimed towards socialism (Rakowska-Harmstone & Gyrogy, 1979). Thus most of the countries identified themselves as socialist countries (e.g. "The Socialist Republic of Romania") and followed the Marxist-Leninist doctrine (Sandle, 2007). Nevertheless, in literature many authors argue that the Eastern European states did not truly follow the ideas of Marx, Engels and Lenin. Instead they followed their own interests and tried to gain political power, rather as a state socialist or totalitarian socialist system (Bahro, 1978; Ferge, 1997; Šiklová, 1993). According to Karl Marx and Friedrich Engels (1848), the history of all society is the history of struggles between classes. Specifically the class struggle between the bourgeois, the modern capitalists, and the proletarians, the modern wage labors. The goal is the abolition of private bourgeois property, which is based on exploitation of proletarian labor, and the ruling of the working class (Marx & Engels, 1848). This is a part of the explanation of communism according to Marx & Engels (1848) from the 'Communist Manifesto'.   
 However, since the focus in this problem set is not in analyzing the Eastern European states regarding their political systems, we use "communism" as a comprehensive approach to refer to the Eastern European states in the following. Furthermore, we use the term "capitalism" to describe the democratic market economies of the West (Fuchs-Schündeln & Schündeln, 2020).
 
@@ -99,7 +106,7 @@ info("readRDS()")
 ```
 
 ```{r "2_a_3"}
-datamacro <- readRDS("JEP_Data_Macrofacts.rds")
+datamacro <- readRDS("JEP_Data_MacroFacts.rds")
 
 head(datamacro)
 ```
@@ -108,7 +115,7 @@ The function `head()` shows the first six rows of a data set. As you can see in 
 
 ```{r eval=FALSE}
 # Run for additional info in the Viewer pane
-info("JEP_Data_Macrofacts.rds")
+info("JEP_Data_MacroFacts.rds")
 ```
 
 **Task 1.2**
@@ -250,10 +257,10 @@ The focus in this exercise is on macro indicators regarding the economic freedom
 
 **Task 2.1.1**
 
-First we need to import the data `JEP_Data_Macrofacts.rds` again and assign it to the variable `datamacro`. Since it is a new task you have to press **edit** first. If you do not know how to load a RDS file just look back to Exercise 1.
+First we need to import the data `JEP_Data_MacroFacts.rds` again and assign it to the variable `datamacro`. Since it is a new task you have to press **edit** first. If you do not know how to load a RDS file just look back to Exercise 1.
 
 ```{r "4_1"}
-# load the data set JEP_Data_Macrofacts.rds and assign it to the variable datamacro. The right command is readRDS("")
+# load the data set JEP_Data_MacroFacts.rds and assign it to the variable datamacro. The right command is readRDS("")
 ```
 
 a) In this first part of the exercise we take a closer look on the **Economic Freedom Index** and the **Ease of Doing Business score**. Therefore we will create two plots using the `ggplot2` package.
@@ -939,10 +946,10 @@ We will have a look on this index, prepare therefore the data first and end the 
 
 **Task 3.1.1**
 
-We will use the data `JEP_Data_Macrofacts.rds` in this task. Load the data and assign it to the variable `datamacro`, use the command `readRDS()` for that purpose.
+We will use the data `JEP_Data_MacroFacts.rds` in this task. Load the data and assign it to the variable `datamacro`, use the command `readRDS()` for that purpose.
 
 ```{r "9_1"}
-# load the data set JEP_Data_Macrofacts.rds and assign it to the variable datamacro. The right command is readRDS("")
+# load the data set JEP_Data_MacroFacts.rds and assign it to the variable datamacro. The right command is readRDS("")
 ```
 
 **Task 3.1.2** 
@@ -1201,10 +1208,10 @@ answer.quiz("Income inequality in 2006")
 
 **Task 4.1.1**
 
-We will use the data `JEP_Data_Macrofacts.rds` in this task. Run the chunk to load the data assigned to the variable `datamacro`.
+We will use the data `JEP_Data_MacroFacts.rds` in this task. Run the chunk to load the data assigned to the variable `datamacro`.
 
 ```{r "12_1"}
-datamacro <- readRDS("JEP_Data_Macrofacts.rds")
+datamacro <- readRDS("JEP_Data_MacroFacts.rds")
 ```
 
 **Task 4.1.2**
@@ -1529,10 +1536,10 @@ As a first step we need to load the relevant data set, modify it afterwards and 
 
 **Task 5.1.1**
 
-We will use the data `JEP_Data_Macrofacts.rds` in this task. Run the chunk to load the data assigned to the variable `datamacro`.
+We will use the data `JEP_Data_MacroFacts.rds` in this task. Run the chunk to load the data assigned to the variable `datamacro`.
 
 ```{r "15_1"}
-datamacro <- readRDS("JEP_Data_Macrofacts.rds")
+datamacro <- readRDS("JEP_Data_MacroFacts.rds")
 ```
 
 **Task 5.1.2**

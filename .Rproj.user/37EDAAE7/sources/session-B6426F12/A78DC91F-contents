@@ -10,7 +10,7 @@ Author: Benjamin Markert
 library(RTutor)
 library(yaml)
 # Adapt working directory
-setwd("~/Documents/Studium WiWi BSc/Bachelorarbeit/RTutorLong-TermEffectsCommunism/RTutorLong-TermEffectsCommunism")
+setwd("~/Documents/Studium WiWi BSc/Bachelorarbeit/GitHub Package/RTutorLongTermEffectsCommunism/RTutorLongTermEffectsCommunism/inst/ps/LongTermEffectsCommunism")
 ps.name = "LongTermEffectsCommunism"; sol.file = paste0(ps.name,"_sol.Rmd")
 
 # character vector of all packages you load in the problem set
@@ -21,6 +21,16 @@ create.ps(sol.file=sol.file, ps.name=ps.name,libs=libs, rps.has.sol=TRUE, addons
 # Show the problem set in the webbrowser
 show.ps(ps.name, launch.browser=TRUE, auto.save.code=FALSE, sample.solution=FALSE)
 stop.without.error()
+
+  ps.name = "LongTermEffectsCommunism" # problem set name
+  libs = c("ggplot2", "dplyr", "patchwork", "tidyr", "stargazer", "TAM", "lfe", "kableExtra", "lmtest")  # list of all libraries used by ps
+  # Folder that contains your .rps file
+  rps.dir = "~/Documents/Studium WiWi BSc/Bachelorarbeit/GitHub Package/RTutorLongTermEffectsCommunism/RTutorLongTermEffectsCommunism/inst/ps/LongTermEffectsCommunism"
+  # Folder in which app shall be created
+  app.dir = "~/Documents/Studium WiWi BSc/Bachelorarbeit/GitHub Package/RTutorLongTermEffectsCommunism/PackageApp"
+  rtutor.app.skel(ps.name=ps.name, app.name="RTutorLongTermEffectsCommunism",
+                  app.dir=app.dir, rps.dir = rps.dir,
+                  rps.app = TRUE, libs=libs,overwrite=TRUE)
 ```
 #>
 
@@ -36,7 +46,9 @@ The paper, the online appendix and the data are available at the following webpa
 - **Data**: https://www.openicpsr.org/openicpsr/project/117970/version/V1/view
 
 
-- **GitHub**:
+The problem set is published on the following:
+
+- **GitHub**: https://github.com/BenjaminMarkert/RTutorLongTermEffectsCommunism
 
 - **shinyapps.io**: https://benjaminmarkert.shinyapps.io/RTutorLongTermEffectsCommunism/
 

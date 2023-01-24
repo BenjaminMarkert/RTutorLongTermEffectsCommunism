@@ -36,7 +36,9 @@ The paper, the online appendix and the data are available at the following webpa
 - **Data**: https://www.openicpsr.org/openicpsr/project/117970/version/V1/view
 
 
-- **GitHub**:
+The problem set is published at the following:
+
+- **GitHub**: https://github.com/BenjaminMarkert/RTutorLongTermEffectsCommunism
 
 - **shinyapps.io**: https://benjaminmarkert.shinyapps.io/RTutorLongTermEffectsCommunism/
 
@@ -190,7 +192,7 @@ The dplyr package is useful for data manipulation and transformation. It provide
 
 - `group_by()`: allows to perform any operation based on groups
 
-- `summarize()`: reduces the amount of variables in a date frame to a summary of one ore more vectors, often used together with `group_by()`
+- `summarize()`: reduces the amount of variables in a date frame to a summary of one or more vectors, often used together with `group_by()`
 
 - `slice_sample()`: randomly selects a number of rows to display  
 
