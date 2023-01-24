@@ -1,0 +1,12 @@
+Package: RTutorLongTermEffectsCommunism
+Type: Package
+Title: RTutor problem set LongTermEffectsCommunism
+Version: 0.1
+Date: 2023-24-01
+Author: Benjamin Markert
+Maintainer: Benjamin Markert <benjaminmarkert@gmx.de>
+Description: RTutor problem set LongTermEffectsCommunism
+License: Problem set content: Creative Commons (CC BY-SA)
+	 Package code: GPL >= 2.0
+Depends: RTutor, ggplot2, dplyr, patchwork, tidyr, stargazer, TAM, lfe, kableExtra, lmtest
+RoxygenNote: 7.1.1
