@@ -1,8 +1,8 @@
 This package constitutes an interactive R problem set based on the RTutor package (https://github.com/skranz/RTutor). 
 
-This problem set is based on the paper "The Long-Term Effects of Communism in Eastern Europe" by Fuchs-Schündeln & Schündeln (2020). The paper can be found at https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.34.2.172.
+This problem set is based on the paper **The Long-Term Effects of Communism in Eastern Europe** by Fuchs-Schündeln & Schündeln (2020). The paper can be found at https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.34.2.172.
 
-The aim of the problem set is to analyze the long term effects of communism, based on several indicators and preferences of people.
+The aim of the problem set is to analyze the long term effects of communism with several indicators and preferences of people. It reproduces the main analysis in an interactive way and covers explanations of useful R commands and economic theory.
 
 ## 1. Installation
 
