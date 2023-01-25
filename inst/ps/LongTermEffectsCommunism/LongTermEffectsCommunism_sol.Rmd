@@ -1001,7 +1001,7 @@ datadiff <- datapref %>%
 #>
 ```
 
-Typically, a difference-in-difference model gets estimated as the following linear regression, consisting of the dummy variables `treat` and `exp` and the interaction term of those. Those dummy variables clarify if an observation is from the treatment or control group and wheter it is in the pre-experimental or experimental phase. The DiD estimator is the OLS estimator $\hat{\beta_1}$. The interaction term is 1 for observations from the experimental period that were actually treated.
+Typically, a difference-in-difference model gets estimated as the following linear regression, consisting of the dummy variables `treat` and `exp` and the interaction term of those. Those dummy variables clarify if an observation is from the treatment or control group and whether it is in the pre-experimental or experimental phase. The DiD estimator is the OLS estimator $\hat{\beta_1}$. The interaction term is 1 for observations from the experimental period that were actually treated.
 $$
 y_{i,t} = \beta_0 + \beta_1treat_i\cdot exp_t  +\beta_2 treat_i +\beta_3 exp_t + \varepsilon_{i,t}
 $$
@@ -1019,7 +1019,7 @@ We estimate the regression in this task with the `lm()` command and save it in t
 
 The command `lm()` from the `stats` package is used to fit linear models. Its syntax is very simple:
 
-- `lm(dependent variable ~ independendent variable 1 + independendent variable 2 + ..., data = name of data)`
+- `lm(dependent variable ~ independent variable 1 + independent variable 2 + ..., data = name of data)`
 
 There are many more options, see https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/lm for more information.
 
@@ -1220,7 +1220,7 @@ stargazer(reg1_1,
 ```
 
 <br>
-We see that the coefficient for the interaction term is still positive, which indicates that the difference of support for a market economy across cohorts, is larger in the East than in the West. Since our data is built from different countries it may have inconstant variance of the residuals, which means that there is a big chance we have heterokedasticity. Thus we should test the model for heteroskedasticity, we can do this by taking use of the Breusch-Pagan test. If the p-value of the test is lower than a common significance level of 5%, we have heteroskedasticity (Kleber & Zeileis, 2008).
+We see that the coefficient for the interaction term is still positive, which indicates that the difference of support for a market economy across cohorts, is larger in the East than in the West. Since our data is built from different countries it may have inconstant variance of the residuals, which means that there is a big chance we have heteroskedasticity. Thus we should test the model for heteroskedasticity, we can do this by taking use of the Breusch-Pagan test. If the p-value of the test is lower than a common significance level of 5%, we have heteroskedasticity (Kleber & Zeileis, 2008).
 
 #< info "Breusch-Pagan test for heteroskedasticity"
 
